@@ -1,10 +1,23 @@
 {
   extends: [
     "eslint-config-airbnb",
+    "plugin:jest/recommended",
     "plugin:jsx-a11y/recommended"
   ],
   parser: "babel-eslint",
   plugins: [
     "jsx-a11y"
-  ]
+  ],
+  env: {
+    browser: true,
+    jest: true,
+  },
+  rules: {
+    import/no-extraneous-dependencies: ["error", {
+      "devDependencies": [
+        "**/*.test.jsx",
+        "jest.*"
+      ]
+    }]
+  }
 }
