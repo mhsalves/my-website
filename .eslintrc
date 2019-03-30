@@ -1,0 +1,10 @@
+{
+  extends: [
+    "eslint-config-airbnb",
+    "plugin:jsx-a11y/recommended"
+  ],
+  parser: "babel-eslint",
+  plugins: [
+    "jsx-a11y"
+  ]
+}
