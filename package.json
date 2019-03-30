@@ -23,7 +23,10 @@
   "dependencies": {
     "next": "8.0.3",
     "react": "16.8.5",
-    "react-dom": "16.8.5"
+    "react-dom": "16.8.5",
+    "styled-components": "4.2.0",
+    "styled-normalize": "8.0.6",
+    "styled-reset": "2.0.4"
   },
   "devDependencies": {
     "babel-eslint": "10.0.1",
