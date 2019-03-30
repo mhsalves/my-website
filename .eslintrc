@@ -1,6 +1,7 @@
 {
   extends: [
     "eslint-config-airbnb",
+    "plugin:jest/recommended",
     "plugin:jsx-a11y/recommended"
   ],
   parser: "babel-eslint",
