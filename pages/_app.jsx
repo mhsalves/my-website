@@ -3,6 +3,7 @@ import App, { Container } from 'next/app';
 import { ThemeProvider } from 'styled-components';
 
 import GlobalCSS from '../bosons/globalCSS';
+import FontLoader from '../bosons/fontLoader';
 import { base } from '../bosons/themes';
 
 class MyApp extends App {
@@ -24,6 +25,7 @@ class MyApp extends App {
       <ThemeProvider theme={base}>
         <Container>
           <GlobalCSS />
+          <FontLoader />
           <Component {...pageProps} />
         </Container>
       </ThemeProvider>
