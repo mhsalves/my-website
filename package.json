@@ -1,0 +1,21 @@
+{
+  "name": "my-website",
+  "version": "0.0.1",
+  "description": "The maintance of my website",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "deploy": "touch export/.nojekyll && touch export/CNAME && echo \"matheusalves.dev\" >> export/CNAME && git add export/ && git commit -m \"Deploy for maintenance\" && git subtree push --prefix export/ origin gh-pages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhsalves/my-website.git"
+  },
+  "author": "Matheus Alves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mhsalves/my-website/issues"
+  },
+  "homepage": "https://github.com/mhsalves/my-website#readme"
+}
