@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`given: Avatar when: is not rounded 1`] = `
+.c0 {
+  padding: 16px;
+  background-color: rgba(255,255,255,.6);
+}
+
+.c1 {
+  width: 100%;
+  padding-top: 50%;
+  padding-bottom: 50%;
+  position: relative;
+}
+
+.c2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <img
+      alt="Avatar testing"
+      className="c2"
+      src="https://via.placeholder.com/320"
+    />
+  </div>
+</div>
+`;
+
+exports[`given: Avatar when: is rounded 1`] = `
+.c0 {
+  padding: 16px;
+  background-color: rgba(255,255,255,.6);
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.c1 {
+  width: 100%;
+  padding-top: 50%;
+  padding-bottom: 50%;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.c2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <img
+      alt="Avatar testing"
+      className="c2"
+      src="https://via.placeholder.com/320"
+    />
+  </div>
+</div>
+`;
