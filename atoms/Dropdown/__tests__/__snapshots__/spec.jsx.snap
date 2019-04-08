@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`given: Dropdown when: is not opened 1`] = `
+.c0 {
+  position: relative;
+  display: inline;
+}
+
+.c1 {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
+  -webkit-transition: opacity .2s ease,visibility .2s ease;
+  transition: opacity .2s ease,visibility .2s ease;
+  opacity: 0;
+  visibility: hidden;
+}
+
+<div
+  className="c0"
+>
+  <button
+    type="button"
+  >
+    Click here
+  </button>
+  <div
+    className="c1"
+  >
+    Hello World !
+  </div>
+</div>
+`;
+
+exports[`given: Dropdown when: is opened 1`] = `
+.c0 {
+  position: relative;
+  display: inline;
+}
+
+.c1 {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
+  -webkit-transition: opacity .2s ease,visibility .2s ease;
+  transition: opacity .2s ease,visibility .2s ease;
+  opacity: 1;
+  visibility: visible;
+}
+
+<div
+  className="c0"
+>
+  <button
+    type="button"
+  >
+    Click here
+  </button>
+  <div
+    className="c1"
+  >
+    Hello World !
+  </div>
+</div>
+`;

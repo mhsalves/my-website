@@ -8,11 +8,11 @@ import {
 } from './styles';
 
 function Avatar(props) {
-  const { src, alt, ...other } = props;
+  const { src, alt, rounded } = props;
 
   return (
-    <AvatarContainer {...other}>
-      <AvatarContent {...other}>
+    <AvatarContainer rounded={rounded}>
+      <AvatarContent rounded={rounded}>
         <AvatarImage src={src} alt={alt} />
       </AvatarContent>
     </AvatarContainer>
@@ -20,14 +20,13 @@ function Avatar(props) {
 }
 
 Avatar.propTypes = {
-  src: string,
+  src: string.isRequired,
   alt: string.isRequired,
   rounded: bool,
 };
 
 Avatar.defaultProps = {
-  src: '',
-  rounded: true,
+  rounded: false,
 };
 
 export default Avatar;
