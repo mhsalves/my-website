@@ -6,7 +6,7 @@ const roundedStyle = css`
 `;
 
 const AvatarContainer = styled.div`
-  padding: ${({ theme: { space } }) => space('small')};
+  padding: ${({ theme: { space } }) => space.small};
   background-color: rgba(255, 255, 255, .6);
 
   ${({ rounded }) => rounded && roundedStyle}
