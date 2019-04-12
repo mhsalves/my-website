@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/mhsalves/my-website#readme",
   "dependencies": {
+    "nanoid": "2.0.1",
     "next": "8.0.3",
     "prop-types": "15.7.2",
     "react": "16.8.5",
