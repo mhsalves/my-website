@@ -17,7 +17,6 @@ const contentStyle = css`
 
 const DropdownContainer = styled.div`
   position: relative;
-  display: inline;
 `;
 
 export {
