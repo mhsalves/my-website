@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`given: Icon when: has color 1`] = `
+.c0 {
+  width: 24px;
+  height: 24px;
+  color: #BD5D38;
+}
+
+<svg
+  className="c0"
+  color="primary"
+  rotate={null}
+  size="base"
+>
+  <use
+    href="/static/svg/base.svg#glyph"
+  />
+</svg>
+`;
+
+exports[`given: Icon when: has color and variant 1`] = `
+.c0 {
+  width: 24px;
+  height: 24px;
+  color: #868E96;
+}
+
+<svg
+  className="c0"
+  color="coal default"
+  rotate={null}
+  size="base"
+>
+  <use
+    href="/static/svg/base.svg#glyph"
+  />
+</svg>
+`;
+
+exports[`given: Icon when: has rotation 1`] = `
+.c0 {
+  width: 24px;
+  height: 24px;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+<svg
+  className="c0"
+  color=""
+  rotate={90}
+  size="base"
+>
+  <use
+    href="/static/svg/base.svg#glyph"
+  />
+</svg>
+`;
+
+exports[`given: Icon when: is before a text 1`] = `
+.c0 {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+<svg
+  className="c0"
+  color=""
+  rotate={null}
+  size="base"
+>
+  <use
+    href="/static/svg/base.svg#glyph"
+  />
+</svg>
+`;
+
+exports[`given: Icon when: is large 1`] = `
+.c0 {
+  width: 32px;
+  height: 32px;
+}
+
+<svg
+  className="c0"
+  color=""
+  rotate={null}
+  size="large"
+>
+  <use
+    href="/static/svg/large.svg#glyph"
+  />
+</svg>
+`;
+
+exports[`given: Icon when: is small 1`] = `
+.c0 {
+  width: 16px;
+  height: 16px;
+}
+
+<svg
+  className="c0"
+  color=""
+  rotate={null}
+  size="small"
+>
+  <use
+    href="/static/svg/small.svg#glyph"
+  />
+</svg>
+`;
+
+exports[`given: Icon when: is spinning 1`] = `
+.c0 {
+  width: 24px;
+  height: 24px;
+  -webkit-animation: emHQMz 1.8s linear infinite;
+  animation: emHQMz 1.8s linear infinite;
+}
+
+<svg
+  className="c0"
+  color=""
+  rotate={null}
+  size="base"
+>
+  <use
+    href="/static/svg/base.svg#glyph"
+  />
+</svg>
+`;
